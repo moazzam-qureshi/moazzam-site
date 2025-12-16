@@ -158,20 +158,20 @@ export default function AIFocusCompanionPage() {
       <section className="py-20 bg-cream">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display font-bold text-4xl text-charcoal mb-6">
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-6">
               The Problem We Solve
             </h2>
             <div className="prose prose-lg max-w-none space-y-6">
-              <p className="text-lg text-stone leading-relaxed">
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 Founders with ADHD face unique challenges that traditional productivity tools weren't built to handle. Task-switching chaos. Executive dysfunction. Hyperfocus that derails priorities. The constant battle between a million brilliant ideas and actually shipping something.
               </p>
-              <p className="text-lg text-stone leading-relaxed">
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 Most AI assistants are built for neurotypical brains—clean interfaces, rigid workflows, and linear thinking. They assume you can just "follow the system" and everything will work out.
               </p>
-              <p className="text-lg text-stone leading-relaxed">
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 But ADHD brains don't work that way. And that's not a bug—it's a feature. The same brain that struggles with mundane tasks is also capable of incredible creativity, hyperfocus, and breakthrough thinking.
               </p>
-              <p className="text-lg text-stone leading-relaxed">
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 You don't need another rigid productivity system. You need a tool that works with how your brain actually functions.
               </p>
             </div>
@@ -183,14 +183,14 @@ export default function AIFocusCompanionPage() {
       <section className="py-20 bg-gradient-to-br from-warm-white to-teal-50/20">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display font-bold text-4xl text-charcoal mb-6">
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-6">
               How AI Focus Companion Works
             </h2>
             <div className="prose prose-lg max-w-none space-y-6 mb-12">
-              <p className="text-lg text-stone leading-relaxed">
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 AI Focus Companion is your voice-first accountability partner. Call your dedicated number whenever you're ready to work, tell the AI what you're tackling, and it keeps you on track with proactive check-ins during your session.
               </p>
-              <p className="text-lg text-stone leading-relaxed">
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 It's like having a personal accountability buddy who actually gets how ADHD works. No judgment, no micromanaging, no anxiety-inducing pressure. Just intelligent support via phone calls and SMS that helps you stay focused on what matters.
               </p>
             </div>
@@ -241,10 +241,10 @@ export default function AIFocusCompanionPage() {
       <section className="py-20 bg-cream">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display font-bold text-4xl text-charcoal mb-6">
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-6">
               Who This Is For
             </h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
               {[
                 {
                   title: 'Solo Founders',
@@ -314,19 +314,19 @@ export default function AIFocusCompanionPage() {
       <section className="py-20 bg-cream">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-display font-bold text-4xl text-charcoal mb-6">
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-6">
               Pricing
             </h2>
-            <p className="text-xl text-stone mb-12">
+            <p className="text-lg md:text-xl text-stone mb-12">
               Simple, transparent pricing. Cancel anytime.
             </p>
 
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-xl p-8 border border-stone/10">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-xl p-6 md:p-8 border border-stone/10">
                 <div className="text-sm font-semibold text-stone mb-2">FREE</div>
-                <div className="font-display font-bold text-4xl text-charcoal mb-2">
+                <div className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-2">
                   $0
-                  <span className="text-lg font-normal text-stone">/month</span>
+                  <span className="text-base md:text-lg font-normal text-stone">/month</span>
                 </div>
                 <div className="text-sm text-stone mb-6">Perfect for students & trial users</div>
                 <ul className="text-left space-y-3 mb-6">
@@ -351,14 +351,14 @@ export default function AIFocusCompanionPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-xl p-8 text-white relative">
+              <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-xl p-6 md:p-8 text-white relative">
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                   POPULAR
                 </div>
                 <div className="text-sm font-semibold mb-2">PRO</div>
-                <div className="font-display font-bold text-4xl mb-2">
+                <div className="font-display font-bold text-3xl md:text-4xl mb-2">
                   $49
-                  <span className="text-lg font-normal opacity-90">/month</span>
+                  <span className="text-base md:text-lg font-normal opacity-90">/month</span>
                 </div>
                 <div className="text-sm opacity-90 mb-6">For solo founders</div>
                 <ul className="text-left space-y-3 mb-6">
@@ -395,11 +395,11 @@ export default function AIFocusCompanionPage() {
                 </ul>
               </div>
 
-              <div className="bg-white rounded-xl p-8 border border-stone/10">
+              <div className="bg-white rounded-xl p-6 md:p-8 border border-stone/10">
                 <div className="text-sm font-semibold text-teal-600 mb-2">PREMIUM</div>
-                <div className="font-display font-bold text-4xl text-charcoal mb-2">
+                <div className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-2">
                   $79
-                  <span className="text-lg font-normal text-stone">/month</span>
+                  <span className="text-base md:text-lg font-normal text-stone">/month</span>
                 </div>
                 <div className="text-sm text-stone mb-6">For established founders</div>
                 <ul className="text-left space-y-3 mb-6">
@@ -454,7 +454,7 @@ export default function AIFocusCompanionPage() {
       <section className="py-20 bg-gradient-to-br from-warm-white to-teal-50/20">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display font-bold text-4xl text-charcoal mb-12 text-center">
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-12 text-center">
               Frequently Asked Questions
             </h2>
 
@@ -484,10 +484,10 @@ export default function AIFocusCompanionPage() {
       {/* Waitlist CTA */}
       <section id="waitlist" className="py-20 bg-gradient-to-br from-teal-600 to-teal-700 text-white">
         <Container className="text-center">
-          <h2 className="font-display font-bold text-4xl md:text-5xl mb-6">
+          <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl mb-6">
             Join the Waitlist
           </h2>
-          <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto">
             Be among the first to experience AI-powered productivity built specifically for ADHD entrepreneurs. Early access members get lifetime founder pricing.
           </p>
           <div className="max-w-md mx-auto bg-white/10 backdrop-blur rounded-xl p-8">

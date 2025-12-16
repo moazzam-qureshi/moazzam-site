@@ -19,7 +19,7 @@ export default function Home() {
                 <br />
                 <span className="text-teal-600">Succeed.</span>
               </h1>
-              <p className="text-xl md:text-2xl text-stone leading-relaxed mb-8 max-w-2xl">
+              <p className="text-lg md:text-xl lg:text-2xl text-stone leading-relaxed mb-8 max-w-2xl">
                 Purpose-built AI agents designed to help entrepreneurs stay focused,
                 manage priorities, and scale their businesses.
               </p>
@@ -35,7 +35,7 @@ export default function Home() {
 
             {/* Hero Visual */}
             <div className="relative slide-in">
-              <div className="bg-white rounded-2xl shadow-2xl shadow-stone/20 p-8 border border-stone/10">
+              <div className="bg-white rounded-2xl shadow-2xl shadow-stone/20 p-6 md:p-8 border border-stone/10">
                 <div className="flex items-center space-x-3 mb-6">
                   <div className="w-12 h-12 bg-gradient-to-br from-teal-600 to-teal-700 rounded-xl flex items-center justify-center">
                     <span className="text-white font-display font-bold text-xl">AI</span>
@@ -84,10 +84,10 @@ export default function Home() {
       <section className="py-20 bg-cream">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="font-display font-bold text-4xl md:text-5xl text-charcoal mb-4">
+            <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl text-charcoal mb-4">
               Featured Product
             </h2>
-            <p className="text-xl text-stone max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-stone max-w-2xl mx-auto">
               Built with AI expertise and deep understanding of entrepreneur challenges
             </p>
           </div>
@@ -116,22 +116,22 @@ export default function Home() {
         <Container>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="font-display font-bold text-4xl text-charcoal mb-6">
+              <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-6">
                 Built by an entrepreneur,
                 <br />
                 for entrepreneurs
               </h2>
-              <p className="text-lg text-stone leading-relaxed mb-6">
+              <p className="text-base md:text-lg text-stone leading-relaxed mb-6">
                 Hi, I'm Moazzam Qureshi. As a software engineer with ADHD and years of building AI systems, I understand the unique challenges entrepreneurs face. Generic productivity tools don't work for everyone.
               </p>
-              <p className="text-lg text-stone leading-relaxed mb-8">
+              <p className="text-base md:text-lg text-stone leading-relaxed mb-8">
                 That's why I'm creating AI products that are purpose-built for how entrepreneurs actually work—with all the chaos, hyperfocus, and brilliant ideas that come with it.
               </p>
               <Button href="/about" variant="outline">
                 Learn More About Moazzam
               </Button>
             </div>
-            <div className="bg-white rounded-2xl p-8 shadow-xl shadow-stone/10 border border-stone/10">
+            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-xl shadow-stone/10 border border-stone/10">
               <div className="space-y-6">
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
@@ -169,10 +169,10 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-teal-600 to-teal-700 text-white">
         <Container className="text-center">
-          <h2 className="font-display font-bold text-4xl md:text-5xl mb-6">
+          <h2 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl mb-6">
             Ready to transform your productivity?
           </h2>
-          <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto">
             Join the waitlist for AI Focus Companion and be among the first to experience
             AI-powered productivity built for ADHD entrepreneurs.
           </p>

@@ -35,12 +35,12 @@ export default function ProductsPage() {
             <div className="inline-block px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-semibold mb-6">
               Our Products
             </div>
-            <h1 className="font-display font-bold text-5xl md:text-6xl text-charcoal mb-6">
+            <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-charcoal mb-6">
               AI Tools for
               <br />
               <span className="text-teal-600">Entrepreneurs</span>
             </h1>
-            <p className="text-xl text-stone leading-relaxed">
+            <p className="text-lg md:text-xl text-stone leading-relaxed">
               Purpose-built AI agents designed to solve real entrepreneur challenges. No generic tools, no bloat—just focused solutions that work.
             </p>
           </div>
@@ -89,10 +89,10 @@ export default function ProductsPage() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-teal-600 to-teal-700 text-white">
         <Container className="text-center">
-          <h2 className="font-display font-bold text-4xl mb-4">
+          <h2 className="font-display font-bold text-3xl md:text-4xl mb-4">
             Have a product idea?
           </h2>
-          <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto">
             I'm always looking to build solutions that help entrepreneurs succeed. Share your challenges and needs.
           </p>
           <a

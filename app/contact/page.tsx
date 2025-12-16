@@ -16,10 +16,10 @@ export default function ContactPage() {
             <div className="inline-block px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-semibold mb-6">
               Contact
             </div>
-            <h1 className="font-display font-bold text-5xl md:text-6xl text-charcoal mb-6">
+            <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-charcoal mb-6">
               Get in Touch
             </h1>
-            <p className="text-xl text-stone leading-relaxed">
+            <p className="text-lg md:text-xl text-stone leading-relaxed">
               Have questions about our products, billing, support, or want to discuss partnerships? I'd love to hear from you.
             </p>
           </div>
@@ -31,10 +31,10 @@ export default function ContactPage() {
         <Container>
           <div className="max-w-2xl mx-auto">
             {/* Email Card - PROMINENT */}
-            <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-2xl p-12 text-center text-white mb-12 shadow-2xl shadow-teal-600/20">
+            <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-2xl p-6 md:p-12 text-center text-white mb-12 shadow-2xl shadow-teal-600/20">
               <div className="mb-6">
                 <svg
-                  className="w-16 h-16 mx-auto mb-4 opacity-90"
+                  className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 opacity-90"
                   fill="none"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -44,18 +44,18 @@ export default function ContactPage() {
                 >
                   <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <h2 className="font-display font-bold text-3xl mb-2">Email Me</h2>
-                <p className="text-white/90 text-lg">
+                <h2 className="font-display font-bold text-2xl md:text-3xl mb-2">Email Me</h2>
+                <p className="text-white/90 text-base md:text-lg">
                   Primary contact for all inquiries
                 </p>
               </div>
               <a
                 href="mailto:hello@moazzam.site"
-                className="inline-block px-10 py-5 bg-white text-teal-700 font-display font-bold text-2xl rounded-xl hover:bg-amber-50 transition-all transform hover:scale-105 shadow-lg"
+                className="inline-block px-6 py-3 md:px-10 md:py-5 bg-white text-teal-700 font-display font-bold text-lg md:text-2xl rounded-xl hover:bg-amber-50 transition-all transform hover:scale-105 shadow-lg break-all"
               >
                 hello@moazzam.site
               </a>
-              <p className="mt-6 text-white/80 text-sm">
+              <p className="mt-4 md:mt-6 text-white/80 text-sm">
                 Click to send email
               </p>
             </div>
@@ -82,8 +82,8 @@ export default function ContactPage() {
             </div>
 
             {/* What to Contact About */}
-            <div className="bg-white rounded-xl p-8 border border-stone/10">
-              <h3 className="font-display font-bold text-2xl text-charcoal mb-6">
+            <div className="bg-white rounded-xl p-6 md:p-8 border border-stone/10">
+              <h3 className="font-display font-bold text-xl md:text-2xl text-charcoal mb-6">
                 What can I help with?
               </h3>
               <div className="space-y-4">
