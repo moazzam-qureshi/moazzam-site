@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: 'https://moazzam.site/products/ai-focus-companion',
+      url: 'https://moazzam.site/products/clarilo-ai',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,

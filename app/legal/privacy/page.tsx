@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             <div className="prose prose-lg max-w-none space-y-8">
               <section>
                 <p className="text-stone leading-relaxed">
-                  At Moazzam Qureshi, we take your privacy seriously. This Privacy Policy explains how we collect, use, share, and protect your personal information when you use AI Focus Companion and our other AI products.
+                  At Moazzam Qureshi, we take your privacy seriously. This Privacy Policy explains how we collect, use, share, and protect your personal information when you use Clarilo AI and our other AI products.
                 </p>
               </section>
 
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
                   We use your information to:
                 </p>
                 <ul className="list-disc pl-6 text-stone space-y-2">
-                  <li><strong>Provide Services:</strong> Deliver and improve AI Focus Companion and other products</li>
+                  <li><strong>Provide Services:</strong> Deliver and improve Clarilo AI and other products</li>
                   <li><strong>Process Payments:</strong> Handle billing and subscription management</li>
                   <li><strong>Personalize Experience:</strong> Tailor AI recommendations and features to your needs</li>
                   <li><strong>Communicate:</strong> Send service updates, product announcements, and support messages</li>

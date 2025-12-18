@@ -8,7 +8,7 @@ export function Footer() {
       title: 'Products',
       links: [
         { name: 'All Products', href: '/products' },
-        { name: 'AI Focus Companion', href: '/products/ai-focus-companion' },
+        { name: 'Clarilo AI', href: '/products/clarilo-ai' },
       ],
     },
     {

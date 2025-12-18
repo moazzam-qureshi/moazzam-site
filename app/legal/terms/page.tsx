@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for Moazzam Qureshi AI Products including AI Focus Companion.',
+  description: 'Terms of Service for Moazzam Qureshi AI Products including Clarilo AI.',
 };
 
 export default function TermsPage() {
@@ -26,7 +26,7 @@ export default function TermsPage() {
                   1. Agreement to Terms
                 </h2>
                 <p className="text-stone leading-relaxed">
-                  By accessing or using AI Focus Companion and other AI products provided by Moazzam Qureshi ("we", "us", or "our"), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use our services.
+                  By accessing or using Clarilo AI and other AI products provided by Moazzam Qureshi ("we", "us", or "our"), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use our services.
                 </p>
                 <p className="text-stone leading-relaxed">
                   We reserve the right to modify these terms at any time. Changes will be effective upon posting to this page. Your continued use of our services after changes are posted constitutes acceptance of the modified terms.
@@ -38,7 +38,7 @@ export default function TermsPage() {
                   2. Service Description
                 </h2>
                 <p className="text-stone leading-relaxed">
-                  Moazzam Qureshi provides AI-powered productivity tools for entrepreneurs, including AI Focus Companion and future AI products. Our services are subscription-based SaaS (Software as a Service) products delivered via web and mobile applications.
+                  Moazzam Qureshi provides AI-powered productivity tools for entrepreneurs, including Clarilo AI and future AI products. Our services are subscription-based SaaS (Software as a Service) products delivered via web and mobile applications.
                 </p>
                 <p className="text-stone leading-relaxed">
                   We strive to maintain high availability but do not guarantee uninterrupted access. Services may be temporarily unavailable for maintenance, updates, or unforeseen issues.

@@ -10,18 +10,18 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   const products = [
     {
-      name: 'AI Focus Companion',
-      tagline: 'Your 24/7 AI Focus Buddy',
+      name: 'Clarilo AI',
+      tagline: 'AI Executive Function Coach for ADHD Founders',
       description:
-        'Call anytime for accountability during work sessions. Voice-first AI companion designed for ADHD entrepreneurs. Proactive check-ins, gentle support, no judgment.',
+        'Get unstuck in <3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo.',
       status: 'early-access' as const,
-      launchDate: 'January 2025',
-      href: '/products/ai-focus-companion',
+      launchDate: 'January 2026',
+      href: '/products/clarilo-ai',
       features: [
         'Voice call interface (call anytime, 24/7)',
-        'Proactive check-ins during work sessions',
-        'SMS nudges and gentle reminders',
-        'Focus session tracking and history',
+        'Root blocker diagnosis & dependency mapping',
+        'Cognitive load externalization',
+        'Pattern recognition (learns your blockers)',
       ],
     },
   ];

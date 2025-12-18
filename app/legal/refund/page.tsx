@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Refund Policy',
-  description: '30-day money-back guarantee on all subscriptions. Learn about our refund process for AI Focus Companion.',
+  description: '30-day money-back guarantee on all subscriptions. Learn about our refund process for Clarilo AI.',
 };
 
 export default function RefundPage() {
@@ -25,7 +25,7 @@ export default function RefundPage() {
                 30-Day Money-Back Guarantee
               </h2>
               <p className="text-lg text-stone leading-relaxed">
-                We offer a 30-day money-back guarantee on all new subscriptions to AI Focus Companion and our other AI products. If you're not satisfied, we'll refund your payment—no questions asked.
+                We offer a 30-day money-back guarantee on all new subscriptions to Clarilo AI and our other AI products. If you're not satisfied, we'll refund your payment—no questions asked.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ export default function RefundPage() {
                   1. General Refund Policy
                 </h2>
                 <p className="text-stone leading-relaxed">
-                  We want you to be completely satisfied with our products. If AI Focus Companion or any of our AI products don't meet your expectations, you can request a full refund within 30 days of your initial purchase.
+                  We want you to be completely satisfied with our products. If Clarilo AI or any of our AI products don't meet your expectations, you can request a full refund within 30 days of your initial purchase.
                 </p>
                 <p className="text-stone leading-relaxed">
                   This policy applies to:

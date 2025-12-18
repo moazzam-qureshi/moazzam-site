@@ -47,7 +47,7 @@ export function Header() {
               </Link>
             ))}
             <Link
-              href="/products/ai-focus-companion"
+              href="/products/clarilo-ai"
               className="px-5 py-2.5 bg-teal-600 text-white text-sm font-semibold rounded-lg hover:bg-teal-700 transition-all hover:shadow-lg hover:shadow-teal-600/20 transform hover:-translate-y-0.5"
             >
               Early Access
@@ -92,7 +92,7 @@ export function Header() {
               </Link>
             ))}
             <Link
-              href="/products/ai-focus-companion"
+              href="/products/clarilo-ai"
               className="block w-full px-5 py-2.5 bg-teal-600 text-white text-sm font-semibold rounded-lg hover:bg-teal-700 transition-colors text-center"
               onClick={() => setIsMenuOpen(false)}
             >

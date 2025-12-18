@@ -4,16 +4,18 @@ import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'AI Focus Companion - Your 24/7 AI Accountability Partner',
+  title: 'Clarilo AI - AI Executive Function Coach for ADHD Founders',
   description:
-    'Voice-first AI focus buddy for ADHD entrepreneurs. Call anytime for accountability during work sessions. Proactive check-ins, gentle redirection, no judgment. Launching January 2025.',
+    'Get unstuck in <3 minutes. AI executive coach that diagnoses what's ACTUALLY blocking you, externalizes working memory, and maps dependencies. $500/hr coaching at $79/mo. Launching January 2026.',
   keywords: [
-    'ADHD accountability',
-    'AI focus buddy',
+    'AI executive function coach',
+    'ADHD coach',
     'voice AI assistant',
-    'entrepreneur accountability',
+    'executive coaching',
     'ADHD entrepreneur',
-    'focus sessions',
+    'cognitive load',
+    'dependency mapping',
+    'root blocker diagnosis',
   ],
 };
 
@@ -22,56 +24,56 @@ export default function AIFocusCompanionPage() {
     {
       title: 'Voice Call Interface',
       description:
-        'Call your dedicated AI focus buddy anytime, 24/7. Just pick up the phone and talk—no app required. Natural, supportive conversation designed for ADHD brains.',
+        'Call your dedicated AI coach anytime, 24/7. Just pick up the phone and talk—no app required. Sophisticated diagnostic conversations designed for ADHD brains.',
       icon: '📞',
     },
     {
-      title: 'Conversational AI (ADHD-Tuned)',
+      title: 'Conversational AI (Expert Coaching)',
       description:
-        'AI that understands executive dysfunction, task paralysis, and hyperfocus patterns. Gentle, judgment-free support that works with your brain, not against it.',
+        'AI that provides $500/hr coaching sophistication. Uses diagnostic frameworks to find root blockers, not surface symptoms. Respects your intelligence—no patronizing advice.',
       icon: '💬',
     },
     {
-      title: 'Proactive Check-Ins',
+      title: 'Cognitive Load Externalization',
       description:
-        'AI calls you at scheduled intervals during work sessions (default 30 min). Stay accountable without feeling micromanaged. Adjust, pivot, or celebrate progress together.',
-      icon: '⏰',
+        'AI holds positioning, decisions, constraints in memory so you don\'t have to. Frees up working memory for execution. Trying to hold WHO + WHAT + WHY while working = paralysis. Let AI remember.',
+      icon: '🧠',
     },
     {
-      title: 'SMS Nudges',
+      title: 'Dependency Mapping',
       description:
-        'Text message reminders and check-ins as a gentle fallback. Get nudged when you need it, not when you don\'t. Simple, non-intrusive accountability.',
-      icon: '📱',
+        'AI maps critical path through chaos. Shows what blocks what, identifies parallel work, eliminates false work. Transforms "15 equally urgent tasks" into clear sequence.',
+      icon: '🗺️',
     },
     {
-      title: 'Focus Session Tracking',
+      title: 'Root Blocker Diagnosis',
       description:
-        'Every work session is logged and retrievable. See your patterns, celebrate wins, and understand when you\'re most productive. Data without overwhelm.',
-      icon: '🎯',
+        'Finds ACTUAL blocker, not stated blocker. "Stuck on landing page" → actually "unclear positioning." Diagnostic frameworks for common founder blockers (marketing, copywriting, prioritization).',
+      icon: '🔍',
     },
     {
-      title: 'Simple Dashboard',
+      title: 'Pattern Recognition',
       description:
-        'View your phone number, session history, and settings. No complex interfaces—just the essentials to stay connected to your AI focus buddy.',
+        'Learns your actual vs stated blockers over time. After 5-10 sessions, AI spots patterns: "Last 3 times you got stuck on content, real issue was positioning." Develops meta-awareness.',
       icon: '📊',
     },
   ];
 
   const faqs = [
     {
-      question: 'When does AI Focus Companion launch?',
+      question: 'When does Clarilo AI launch?',
       answer:
-        'Public launch is scheduled for January 2025. Beta access begins in December 2024 for waitlist members. Join the early access list to get notified when beta slots open.',
+        'Public launch is scheduled for January 2026. Beta access begins in December 2025 for waitlist members. Join the early access list to get notified when beta slots open.',
     },
     {
       question: 'Do I need an ADHD diagnosis to use this?',
       answer:
-        "No. While designed specifically for ADHD brains, anyone who struggles with focus, prioritization, or task management will benefit. If traditional productivity systems don't work for you, this might.",
+        "No. While designed specifically for ADHD brains, anyone who struggles with initiation paralysis, working memory overload, or knowing where to start will benefit. If traditional productivity systems don't work for you, this will.",
     },
     {
       question: 'What AI technology powers this?',
       answer:
-        'We use Vapi for voice AI infrastructure, GPT-4 for natural conversation, and LangGraph to manage the 7-state focus session flow. All running on secure, enterprise-grade infrastructure.',
+        'We use Vapi for voice AI infrastructure, GPT-4 for natural conversation, LangGraph for the diagnostic coaching state machine, and Pinecone for RAG-based context retrieval. All running on secure, enterprise-grade infrastructure.',
     },
     {
       question: 'How is my data used?',
@@ -105,7 +107,7 @@ export default function AIFocusCompanionPage() {
     {
       question: 'What integrations are available?',
       answer:
-        'At launch, AI Focus Companion works standalone via phone calls and SMS. No integrations needed—just call when you need accountability. Future integrations may include calendar sync based on user feedback.',
+        'At launch, Clarilo AI works standalone via phone calls. No integrations needed—just call when you need diagnostic coaching. Project context is stored per-project with voice memos.',
     },
     {
       question: 'Is there a free trial?',
@@ -114,12 +116,12 @@ export default function AIFocusCompanionPage() {
     {
       question: 'How is this different from other AI assistants?',
       answer:
-        'Most AI assistants are general-purpose and built for neurotypical users. AI Focus Companion is specifically designed for ADHD brains—it understands executive dysfunction, task paralysis, and hyperfocus patterns. It adapts to how you work, not the other way around.',
+        'Most AI assistants are task managers or generic chatbots. Clarilo AI is an executive function coach. It diagnoses root blockers (not stated ones), externalizes working memory, and provides $500/hr coaching sophistication. Built specifically for ADHD founders who need expert coaching, not patronizing task simplification.',
     },
     {
       question: 'Will you build more products?',
       answer:
-        'Yes. AI Focus Companion is the first of several AI products planned for entrepreneurs. Future products will address other specific pain points in building and scaling businesses.',
+        'Yes. Clarilo AI is the first of several AI products planned for entrepreneurs. Future products will address other specific pain points in building and scaling businesses.',
     },
   ];
 
@@ -131,16 +133,16 @@ export default function AIFocusCompanionPage() {
           <div className="max-w-4xl mx-auto">
             <div className="inline-flex items-center space-x-2 px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-semibold mb-6">
               <span>🚀</span>
-              <span>Launching January 2025</span>
+              <span>Launching January 2026</span>
             </div>
             <h1 className="font-display font-bold text-5xl md:text-6xl lg:text-7xl text-charcoal mb-6 leading-tight">
-              AI Focus Companion
+              Clarilo AI
             </h1>
             <p className="text-2xl md:text-3xl font-display font-semibold text-teal-700 mb-8">
-              Your 24/7 AI Focus Buddy for ADHD Founders
+              AI Executive Function Coach for ADHD Founders
             </p>
             <p className="text-xl text-stone leading-relaxed mb-10 max-w-3xl">
-              Call anytime to stay accountable and on track. Your voice-first AI companion for work sessions—no judgment, just support. Built specifically for solo ADHD entrepreneurs who need accountability without the pressure.
+              Get unstuck in &lt;3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button href="#waitlist" size="lg">
@@ -166,6 +168,9 @@ export default function AIFocusCompanionPage() {
                 Founders with ADHD face unique challenges that traditional productivity tools weren't built to handle. Task-switching chaos. Executive dysfunction. Hyperfocus that derails priorities. The constant battle between a million brilliant ideas and actually shipping something.
               </p>
               <p className="text-base md:text-lg text-stone leading-relaxed">
+                <strong>Specifically:</strong> Initiation Paralysis (know what to do but can't start), Working Memory Overload (trying to hold too much in your head simultaneously), Hidden Blockers (stuck on X but actually blocked by Y), and Dependency Blindness (15 tasks feel equally urgent, don't know where to start).
+              </p>
+              <p className="text-base md:text-lg text-stone leading-relaxed">
                 Most AI assistants are built for neurotypical brains—clean interfaces, rigid workflows, and linear thinking. They assume you can just "follow the system" and everything will work out.
               </p>
               <p className="text-base md:text-lg text-stone leading-relaxed">
@@ -184,14 +189,14 @@ export default function AIFocusCompanionPage() {
         <Container>
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display font-bold text-3xl md:text-4xl text-charcoal mb-6">
-              How AI Focus Companion Works
+              How Clarilo AI Works
             </h2>
             <div className="prose prose-lg max-w-none space-y-6 mb-12">
               <p className="text-base md:text-lg text-stone leading-relaxed">
-                AI Focus Companion is your voice-first accountability partner. Call your dedicated number whenever you're ready to work, tell the AI what you're tackling, and it keeps you on track with proactive check-ins during your session.
+                Clarilo AI is your voice-first executive function coach. Call when you're stuck on something—the AI diagnoses what's ACTUALLY blocking you (not what you think), externalizes working memory so you don't have to hold everything in your head, and maps dependencies to show critical path through chaos.
               </p>
               <p className="text-base md:text-lg text-stone leading-relaxed">
-                It's like having a personal accountability buddy who actually gets how ADHD works. No judgment, no micromanaging, no anxiety-inducing pressure. Just intelligent support via phone calls and SMS that helps you stay focused on what matters.
+                It's like having a $500/hr executive coach who understands ADHD. No patronizing advice, no "let's make this stupid small." Just expert-level diagnostic coaching that respects your intelligence and gets you from stuck to executing in under 3 minutes.
               </p>
             </div>
 
@@ -199,23 +204,18 @@ export default function AIFocusCompanionPage() {
               {[
                 {
                   step: '1',
-                  title: 'Call Your AI Focus Buddy',
-                  description: 'Dial your dedicated number. Tell the AI what you\'re working on and how long you plan to work. Quick 2-minute setup, then you\'re ready.',
+                  title: 'Create Project & Add Context',
+                  description: 'Create projects in dashboard. Call anytime to dump voice memos about decisions, constraints, thoughts. AI transcribes, summarizes, stores per-project. No commitment to work—just capturing context.',
                 },
                 {
                   step: '2',
-                  title: 'Work in Focus',
-                  description: 'Hang up and dive into your work. AI is on standby, tracking your session. No interruptions unless you need them—just pure focus time.',
+                  title: 'Unblocking Session (<3 min)',
+                  description: 'Call when stuck. AI runs diagnostic: brain dump → cognitive triage → dependency mapping → root blocker diagnosis → working memory externalization. Unblocked and executing in <3 minutes.',
                 },
                 {
                   step: '3',
-                  title: 'Get Checked In',
-                  description: 'AI calls you at scheduled intervals (every 30 min by default). On track? Great, keep going. Derailed? No judgment—pivot or get back on track together.',
-                },
-                {
-                  step: '4',
-                  title: 'Celebrate & Reflect',
-                  description: 'End your session by calling back. AI celebrates your accomplishment and logs your session. Brief reflection helps you improve next time.',
+                  title: 'Pattern Recognition (Builds Over Time)',
+                  description: 'After 5-10 sessions, AI recognizes your patterns. "Last 3 times you said \'stuck on marketing,\' the real blocker was unclear positioning." Develops meta-awareness of what actually blocks you.',
                 },
               ].map((item) => (
                 <div key={item.step} className="bg-white rounded-xl p-6 border border-stone/10">
@@ -340,7 +340,7 @@ export default function AIFocusCompanionPage() {
                     <svg className="w-5 h-5 text-teal-600 mr-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    SMS nudges
+                    Basic coaching sessions
                   </li>
                   <li className="flex items-center text-sm text-stone">
                     <svg className="w-5 h-5 text-teal-600 mr-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -372,7 +372,7 @@ export default function AIFocusCompanionPage() {
                     <svg className="w-5 h-5 mr-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    Proactive check-in calls
+                    Unlimited unblocking sessions
                   </li>
                   <li className="flex items-center text-sm">
                     <svg className="w-5 h-5 mr-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -508,7 +508,7 @@ export default function AIFocusCompanionPage() {
       <section className="py-12 bg-cream">
         <Container className="text-center">
           <p className="text-sm text-stone mb-4">
-            By using AI Focus Companion, you agree to our{' '}
+            By using Clarilo AI, you agree to our{' '}
             <Link href="/legal/terms" className="text-teal-600 hover:text-teal-700 underline">
               Terms of Service
             </Link>{' '}

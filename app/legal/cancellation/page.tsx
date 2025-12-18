@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Cancellation Policy',
-  description: 'Cancel your subscription anytime. Learn how to cancel AI Focus Companion and what happens to your data.',
+  description: 'Cancel your subscription anytime. Learn how to cancel Clarilo AI and what happens to your data.',
 };
 
 export default function CancellationPage() {
@@ -25,7 +25,7 @@ export default function CancellationPage() {
                 Cancel Anytime, No Questions Asked
               </h2>
               <p className="text-lg text-stone leading-relaxed">
-                You can cancel your AI Focus Companion subscription at any time from your account dashboard or by emailing us. No contracts, no penalties, no hassle.
+                You can cancel your Clarilo AI subscription at any time from your account dashboard or by emailing us. No contracts, no penalties, no hassle.
               </p>
             </div>
 
@@ -106,7 +106,7 @@ export default function CancellationPage() {
                   Your cancellation takes effect at the <strong>end of your current billing period</strong>. This means:
                 </p>
                 <ul className="list-disc pl-6 text-stone space-y-2">
-                  <li>You'll retain full access to AI Focus Companion until your current billing period ends</li>
+                  <li>You'll retain full access to Clarilo AI until your current billing period ends</li>
                   <li>You won't be charged for any future billing periods</li>
                   <li>Your subscription will not automatically renew</li>
                 </ul>
@@ -242,7 +242,7 @@ export default function CancellationPage() {
                   7. Need Help or Have Questions?
                 </h2>
                 <p className="text-stone leading-relaxed">
-                  If you're considering canceling because of an issue with our product, please reach out first! We're committed to making AI Focus Companion work for you.
+                  If you're considering canceling because of an issue with our product, please reach out first! We're committed to making Clarilo AI work for you.
                 </p>
                 <div className="bg-teal-50 rounded-lg p-6 border border-teal-200">
                   <p className="text-charcoal font-semibold mb-2">Contact Us</p>

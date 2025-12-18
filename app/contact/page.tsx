@@ -90,7 +90,7 @@ export default function ContactPage() {
                 {[
                   {
                     title: 'Product Questions',
-                    description: 'Learn more about AI Focus Companion or other AI products',
+                    description: 'Learn more about Clarilo AI or other AI products',
                   },
                   {
                     title: 'Billing & Subscriptions',

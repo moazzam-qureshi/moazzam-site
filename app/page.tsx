@@ -24,8 +24,8 @@ export default function Home() {
                 manage priorities, and scale their businesses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button href="/products/ai-focus-companion" size="lg">
-                  Explore AI Focus Companion
+                <Button href="/products/clarilo-ai" size="lg">
+                  Explore Clarilo AI
                 </Button>
                 <Button href="/about" variant="outline" size="lg">
                   About Moazzam
@@ -41,8 +41,8 @@ export default function Home() {
                     <span className="text-white font-display font-bold text-xl">AI</span>
                   </div>
                   <div>
-                    <div className="font-display font-bold text-lg">AI Focus Companion</div>
-                    <div className="text-sm text-stone">Your 24/7 AI Focus Buddy</div>
+                    <div className="font-display font-bold text-lg">Clarilo AI</div>
+                    <div className="text-sm text-stone">AI Executive Function Coach for ADHD Founders</div>
                   </div>
                 </div>
                 <div className="space-y-4">
@@ -94,17 +94,17 @@ export default function Home() {
 
           <div className="max-w-3xl mx-auto">
             <ProductCard
-              name="AI Focus Companion"
-              tagline="Your 24/7 AI Focus Buddy"
-              description="Call anytime for accountability during work sessions. Voice-first AI companion designed for ADHD entrepreneurs. Proactive check-ins, gentle support, no judgment."
+              name="Clarilo AI"
+              tagline="AI Executive Function Coach for ADHD Founders"
+              description="Get unstuck in <3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo."
               status="early-access"
-              launchDate="January 2025"
-              href="/products/ai-focus-companion"
+              launchDate="January 2026"
+              href="/products/clarilo-ai"
               features={[
                 'Voice call interface (call anytime, 24/7)',
-                'Proactive check-ins during work sessions',
-                'SMS nudges and gentle reminders',
-                'Focus session tracking and history',
+                'Root blocker diagnosis & dependency mapping',
+                'Cognitive load externalization',
+                'Pattern recognition (learns your blockers)',
               ]}
             />
           </div>
@@ -173,10 +173,10 @@ export default function Home() {
             Ready to transform your productivity?
           </h2>
           <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-            Join the waitlist for AI Focus Companion and be among the first to experience
-            AI-powered productivity built for ADHD entrepreneurs.
+            Join the waitlist for Clarilo AI and be among the first to experience
+            AI-powered executive coaching built for ADHD entrepreneurs.
           </p>
-          <Button href="/products/ai-focus-companion" variant="secondary" size="lg">
+          <Button href="/products/clarilo-ai" variant="secondary" size="lg">
             Join Early Access
           </Button>
         </Container>

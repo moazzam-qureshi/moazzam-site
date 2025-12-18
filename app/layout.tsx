@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: 'Moazzam Qureshi | AI Products for Entrepreneurs',
     template: '%s | Moazzam Qureshi'
   },
-  description: 'Purpose-built AI agents and tools designed to help entrepreneurs focus, scale, and succeed. Starting with AI Focus Companion for ADHD founders.',
+  description: 'Purpose-built AI agents and tools designed to help entrepreneurs focus, scale, and succeed. Starting with Clarilo AI for ADHD founders.',
   keywords: ['AI products', 'entrepreneur tools', 'ADHD productivity', 'AI assistant', 'focus tools', 'SaaS', 'AI agents', 'productivity software'],
   authors: [{ name: 'Moazzam Qureshi' }],
   creator: 'Moazzam Qureshi',

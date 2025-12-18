@@ -55,7 +55,7 @@ export default function AboutPage() {
                   What I'm building
                 </h3>
                 <p className="text-lg text-stone leading-relaxed mb-6">
-                  Starting with <strong>AI Focus Companion</strong>, I'm developing a suite of AI-powered tools designed specifically for entrepreneurs who struggle with traditional productivity systems. Each product is built from real experience, not theory.
+                  Starting with <strong>Clarilo AI</strong>, I'm developing a suite of AI-powered tools designed specifically for entrepreneurs who struggle with traditional productivity systems. Each product is built from real experience, not theory.
                 </p>
               </div>
 
