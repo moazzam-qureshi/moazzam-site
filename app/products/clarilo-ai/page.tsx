@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button';
 export const metadata: Metadata = {
   title: 'Clarilo AI - AI Executive Function Coach for ADHD Founders',
   description:
-    'Get unstuck in <3 minutes. AI executive coach that diagnoses what's ACTUALLY blocking you, externalizes working memory, and maps dependencies. $500/hr coaching at $79/mo. Launching January 2026.',
+    'Get unstuck in under 3 minutes. AI executive coach that diagnoses what\'s ACTUALLY blocking you, externalizes working memory, and maps dependencies. $500/hr coaching at $79/mo. Launching January 2026.',
   keywords: [
     'AI executive function coach',
     'ADHD coach',
@@ -142,7 +142,7 @@ export default function AIFocusCompanionPage() {
               AI Executive Function Coach for ADHD Founders
             </p>
             <p className="text-xl text-stone leading-relaxed mb-10 max-w-3xl">
-              Get unstuck in &lt;3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo.
+              Get unstuck in under 3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button href="#waitlist" size="lg">
@@ -209,8 +209,8 @@ export default function AIFocusCompanionPage() {
                 },
                 {
                   step: '2',
-                  title: 'Unblocking Session (<3 min)',
-                  description: 'Call when stuck. AI runs diagnostic: brain dump → cognitive triage → dependency mapping → root blocker diagnosis → working memory externalization. Unblocked and executing in <3 minutes.',
+                  title: 'Unblocking Session (under 3 min)',
+                  description: 'Call when stuck. AI runs diagnostic: brain dump → cognitive triage → dependency mapping → root blocker diagnosis → working memory externalization. Unblocked and executing in under 3 minutes.',
                 },
                 {
                   step: '3',

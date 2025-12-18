@@ -96,7 +96,7 @@ export default function Home() {
             <ProductCard
               name="Clarilo AI"
               tagline="AI Executive Function Coach for ADHD Founders"
-              description="Get unstuck in <3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo."
+              description="Get unstuck in under 3 minutes. Diagnoses what's actually blocking you (not what you think), externalizes working memory, and maps dependencies. $500/hr executive coaching sophistication at $79/mo."
               status="early-access"
               launchDate="January 2026"
               href="/products/clarilo-ai"
