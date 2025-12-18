@@ -17,7 +17,7 @@ export default function PrivacyPage() {
               Privacy Policy
             </h1>
             <p className="text-stone mb-8">
-              <strong>Last Updated:</strong> December 16, 2024
+              <strong>Last Updated:</strong> December 18, 2025
             </p>
 
             <div className="prose prose-lg max-w-none space-y-8">

@@ -2,6 +2,17 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
+import {
+  Phone,
+  MessageSquare,
+  Brain,
+  Map,
+  Search,
+  BarChart3,
+  Rocket,
+  User,
+  Wrench
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Clarilo AI - AI Executive Function Coach for ADHD Founders',
@@ -25,37 +36,37 @@ export default function AIFocusCompanionPage() {
       title: 'Voice Session Interface',
       description:
         'Start a session with your dedicated AI coach anytime, 24/7. Just open the app and talk—seamless voice interaction. Sophisticated diagnostic conversations designed for ADHD brains.',
-      icon: '📞',
+      icon: Phone,
     },
     {
       title: 'Conversational AI (Expert Coaching)',
       description:
         'AI that provides $500/hr coaching sophistication. Uses diagnostic frameworks to find root blockers, not surface symptoms. Respects your intelligence—no patronizing advice.',
-      icon: '💬',
+      icon: MessageSquare,
     },
     {
       title: 'Cognitive Load Externalization',
       description:
         'AI holds positioning, decisions, constraints in memory so you don\'t have to. Frees up working memory for execution. Trying to hold WHO + WHAT + WHY while working = paralysis. Let AI remember.',
-      icon: '🧠',
+      icon: Brain,
     },
     {
       title: 'Dependency Mapping',
       description:
         'AI maps critical path through chaos. Shows what blocks what, identifies parallel work, eliminates false work. Transforms "15 equally urgent tasks" into clear sequence.',
-      icon: '🗺️',
+      icon: Map,
     },
     {
       title: 'Root Blocker Diagnosis',
       description:
         'Finds ACTUAL blocker, not stated blocker. "Stuck on landing page" → actually "unclear positioning." Diagnostic frameworks for common founder blockers (marketing, copywriting, prioritization).',
-      icon: '🔍',
+      icon: Search,
     },
     {
       title: 'Pattern Recognition',
       description:
         'Learns your actual vs stated blockers over time. After 5-10 sessions, AI spots patterns: "Last 3 times you got stuck on content, real issue was positioning." Develops meta-awareness.',
-      icon: '📊',
+      icon: BarChart3,
     },
   ];
 
@@ -132,7 +143,7 @@ export default function AIFocusCompanionPage() {
         <Container>
           <div className="max-w-4xl mx-auto">
             <div className="inline-flex items-center space-x-2 px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-semibold mb-6">
-              <span>🚀</span>
+              <Rocket className="w-4 h-4 inline-block" />
               <span>Launching January 2026</span>
             </div>
             <h1 className="font-display font-bold text-5xl md:text-6xl lg:text-7xl text-charcoal mb-6 leading-tight">
@@ -249,21 +260,21 @@ export default function AIFocusCompanionPage() {
                 {
                   title: 'Solo Founders',
                   description: 'Building your first SaaS or product without a team to keep you accountable.',
-                  icon: '👤',
+                  icon: User,
                 },
                 {
                   title: 'ADHD Entrepreneurs',
                   description: "Diagnosed or self-identified—if traditional productivity tools don't work for you.",
-                  icon: '🧠',
+                  icon: Brain,
                 },
                 {
                   title: 'Busy Builders',
                   description: 'Juggling multiple roles without a team, needing to focus on shipping instead of admin.',
-                  icon: '🛠️',
+                  icon: Wrench,
                 },
               ].map((persona) => (
                 <div key={persona.title} className="bg-white rounded-xl p-6 border border-stone/10 text-center">
-                  <div className="text-4xl mb-4">{persona.icon}</div>
+                  <persona.icon className="w-16 h-16 mb-4 text-amber-600 mx-auto" />
                   <h3 className="font-display font-semibold text-lg text-charcoal mb-2">
                     {persona.title}
                   </h3>
@@ -295,7 +306,7 @@ export default function AIFocusCompanionPage() {
                   className="bg-white rounded-xl p-6 border border-stone/10 hover:shadow-lg hover:shadow-stone/10 transition-shadow"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="text-4xl flex-shrink-0">{feature.icon}</div>
+                    <feature.icon className="w-12 h-12 flex-shrink-0 text-teal-600" />
                     <div>
                       <h3 className="font-display font-semibold text-xl text-charcoal mb-2">
                         {feature.title}

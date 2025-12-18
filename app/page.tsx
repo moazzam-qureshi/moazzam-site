@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
 import { ProductCard } from '@/components/products/ProductCard';
+import { Target } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -62,7 +63,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-6 pt-6 border-t border-stone/10">
-                  <div className="text-sm text-stone">Launching January 2025</div>
+                  <div className="text-sm text-stone">Launching January 2026</div>
                 </div>
               </div>
               {/* Decorative Elements */}
@@ -147,7 +148,7 @@ export default function Home() {
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
                     <div className="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center">
-                      <span className="text-teal-600 font-bold">🎯</span>
+                      <Target className="w-5 h-5 text-teal-600" />
                     </div>
                     <span className="font-semibold text-charcoal">Mission</span>
                   </div>

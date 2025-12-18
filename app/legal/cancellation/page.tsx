@@ -17,7 +17,7 @@ export default function CancellationPage() {
               Cancellation Policy
             </h1>
             <p className="text-stone mb-8">
-              <strong>Last Updated:</strong> December 16, 2024
+              <strong>Last Updated:</strong> December 18, 2025
             </p>
 
             <div className="bg-teal-50 rounded-xl p-8 border border-teal-200 mb-12">
