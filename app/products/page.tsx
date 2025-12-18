@@ -18,7 +18,7 @@ export default function ProductsPage() {
       launchDate: 'January 2026',
       href: '/products/clarilo-ai',
       features: [
-        'Voice call interface (call anytime, 24/7)',
+        'Voice session interface (start sessions anytime, 24/7)',
         'Root blocker diagnosis & dependency mapping',
         'Cognitive load externalization',
         'Pattern recognition (learns your blockers)',

@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 export default function AIFocusCompanionPage() {
   const features = [
     {
-      title: 'Voice Call Interface',
+      title: 'Voice Session Interface',
       description:
-        'Call your dedicated AI coach anytime, 24/7. Just pick up the phone and talk—no app required. Sophisticated diagnostic conversations designed for ADHD brains.',
+        'Start a session with your dedicated AI coach anytime, 24/7. Just open the app and talk—seamless voice interaction. Sophisticated diagnostic conversations designed for ADHD brains.',
       icon: '📞',
     },
     {
@@ -107,7 +107,7 @@ export default function AIFocusCompanionPage() {
     {
       question: 'What integrations are available?',
       answer:
-        'At launch, Clarilo AI works standalone via phone calls. No integrations needed—just call when you need diagnostic coaching. Project context is stored per-project with voice memos.',
+        'At launch, Clarilo AI works standalone via in-app voice sessions. No integrations needed—just start a session when you need diagnostic coaching. Project context is stored per-project with voice memos.',
     },
     {
       question: 'Is there a free trial?',
@@ -193,7 +193,7 @@ export default function AIFocusCompanionPage() {
             </h2>
             <div className="prose prose-lg max-w-none space-y-6 mb-12">
               <p className="text-base md:text-lg text-stone leading-relaxed">
-                Clarilo AI is your voice-first executive function coach. Call when you're stuck on something—the AI diagnoses what's ACTUALLY blocking you (not what you think), externalizes working memory so you don't have to hold everything in your head, and maps dependencies to show critical path through chaos.
+                Clarilo AI is your voice-first executive function coach. Start a session when you're stuck on something—the AI diagnoses what's ACTUALLY blocking you (not what you think), externalizes working memory so you don't have to hold everything in your head, and maps dependencies to show critical path through chaos.
               </p>
               <p className="text-base md:text-lg text-stone leading-relaxed">
                 It's like having a $500/hr executive coach who understands ADHD. No patronizing advice, no "let's make this stupid small." Just expert-level diagnostic coaching that respects your intelligence and gets you from stuck to executing in under 3 minutes.
@@ -205,12 +205,12 @@ export default function AIFocusCompanionPage() {
                 {
                   step: '1',
                   title: 'Create Project & Add Context',
-                  description: 'Create projects in dashboard. Call anytime to dump voice memos about decisions, constraints, thoughts. AI transcribes, summarizes, stores per-project. No commitment to work—just capturing context.',
+                  description: 'Create projects in dashboard. Start a session anytime to dump voice memos about decisions, constraints, thoughts. AI transcribes, summarizes, stores per-project. No commitment to work—just capturing context.',
                 },
                 {
                   step: '2',
                   title: 'Unblocking Session (under 3 min)',
-                  description: 'Call when stuck. AI runs diagnostic: brain dump → cognitive triage → dependency mapping → root blocker diagnosis → working memory externalization. Unblocked and executing in under 3 minutes.',
+                  description: 'Start a session when stuck. AI runs diagnostic: brain dump → cognitive triage → dependency mapping → root blocker diagnosis → working memory externalization. Unblocked and executing in under 3 minutes.',
                 },
                 {
                   step: '3',
@@ -366,7 +366,7 @@ export default function AIFocusCompanionPage() {
                     <svg className="w-5 h-5 mr-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                       <path d="M5 13l4 4L19 7" />
                     </svg>
-                    Unlimited 24/7 voice AI
+                    Unlimited 24/7 voice coaching sessions
                   </li>
                   <li className="flex items-center text-sm">
                     <svg className="w-5 h-5 mr-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">

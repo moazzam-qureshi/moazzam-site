@@ -49,22 +49,15 @@ export default function Home() {
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-teal-600 rounded-full mt-2"></div>
                     <div>
-                      <div className="font-semibold text-charcoal">Voice-First Focus Sessions</div>
-                      <div className="text-sm text-stone">Call anytime for accountability during work</div>
+                      <div className="font-semibold text-charcoal">On-Demand Diagnostic Sessions</div>
+                      <div className="text-sm text-stone">Unblock in under 3 minutes, 24/7 availability</div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-amber-500 rounded-full mt-2"></div>
                     <div>
-                      <div className="font-semibold text-charcoal">Proactive Accountability Check-Ins</div>
-                      <div className="text-sm text-stone">AI calls you during sessions to keep you on track</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-teal-600 rounded-full mt-2"></div>
-                    <div>
-                      <div className="font-semibold text-charcoal">SMS Nudges & Reminders</div>
-                      <div className="text-sm text-stone">Text message support when you need it</div>
+                      <div className="font-semibold text-charcoal">Real-Time Blocker Detection</div>
+                      <div className="text-sm text-stone">AI identifies when you're stuck and intervenes immediately</div>
                     </div>
                   </div>
                 </div>
@@ -101,7 +94,7 @@ export default function Home() {
               launchDate="January 2026"
               href="/products/clarilo-ai"
               features={[
-                'Voice call interface (call anytime, 24/7)',
+                'Voice session interface (start sessions anytime, 24/7)',
                 'Root blocker diagnosis & dependency mapping',
                 'Cognitive load externalization',
                 'Pattern recognition (learns your blockers)',
